@@ -32,7 +32,7 @@ Go to the command line of the Spark master and start PySpark.
 
   /spark/bin/pyspark --master spark://spark-master:7077
 ```
-
+## NOTE! You can find spark-master location by clicking on http://localhost:8088/ . And your spark master ID is displayed on the top (Spark Master at spark://<containerID>:7077)
 
 ## Quick Start Spark (Scala)
 
@@ -49,7 +49,7 @@ Go to the command line of the Spark master and start spark-shell.
 ## Quick Start Hive
 
 ```
-  $ docker-compose exec hive-server bash
+  $ docker exec -it hive-server bash
   # /opt/hive/bin/beeline -u jdbc:hive2://localhost:10000
 
 ```
